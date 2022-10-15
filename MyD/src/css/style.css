@@ -9,24 +9,378 @@ nav{
     }
 .logo{
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 60px;
-    padding-left: 388px;
+    padding-left: 20%;
+    display: inline-block;
     
     }
 
  .menu{
     float: left;
-    padding-left: 432px;
+    padding-left: 23,1%;
     
 }
-
- .menu li{
+.menu li{
+    
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+}
 
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+background:url(../img/boy.png)no-repeat 90% 100%/auto 85%, url(../img/bg.jpf) center/cover no-repeat;
+    
+}
+
+.title_conteiner{
+    float: left;
+    margin: 250px 0px 0px 20%;
+    color: #e87600;
+    text-align: center;
+    
+}
+.title_conteiner h1{
+    margin: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a2e43;
+}
+.title_conteiner h4{ 
+    height:30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #697784;  
+}
+.title_conteiner input{
+    height: 30px;
+    text-align: center;
+    margin-right: 39px;
+    border: 2px solid #697784;
+    background: none;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #697784;
+}
+ .me{
+    margin: 30px 0px 0px 0px;
+     margin-left: 50%;
+    font-size: 20px;
+    color: #1a2e43;
+   text-decoration: underline #eb7800;
+    
+}
+.cat {
+    height: 290px;
+    box-shadow:1px  1px 1px 1px #fff;
+background: url(../img/1234.webp.jpg)no-repeat 50% ;
+}
+.about{
+     height: 100px;`
+    box-shadow:1px  1px 1px 1px #fff ;
+    margin-left:272px; 
+    text-align: left;
+   color:   37475a; 
+   font-size: 10px;
+}
+.download input{
+     height: 30px;
+    box-shadow:1px  1px 1px 1px #fff ;
+    text-align: center;
+    margin: 0px 0px 0px 50%;
+    border: 2px solid #697784;
+    background: url(../img/ik.jpg)no-repeat ;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #697784;
+    
+}
+.what{
+    height: 520px; 
+    box-shadow:1px  1px 1px 1px #fff ;
+    background: url(../img/fon.jpf)no-repeat;
+}
+.what h2{
+  margin: 214px 0px 0px 0px;
+    margin-left: 50%;
+    font-size: 20px;
+    color: #1a2e43;
+   text-decoration: underline #eb7800;
+    
+
+}
+
+.skills {
+    float: left;
+    width: 280px;
+    margin: 150px 0px 0px 30px;
+    padding-left: 50px;
+    text-align: center;
+    
+}
+.skills h3{
+    margin-top: 50px;
+    font-size: 16px;
+    color:  #eb7800;
+}
+.skills p{
+   margin-top: 20px; 
+    font-size: 10px;
+     }
+.ca{
+  text-align: center; 
+    margin: 0px auto;
+    font-size: 22px;
+    
+}
+.case hr{
+    height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;
+}
+.case h5{
+     text-align: center;
+    font-size: 10px;
+}
+.case img{
+   margin: 30px 
+   
+}
+.case b{
+    margin-right: 217px;
+    
+}
+.case smal{
+    margin-right: 167px;
+}
+.cas b{
+    margin-right: 198px;
+}
+.cas p{
+    margin-left:  271px;
+}
+.case input{
+    height: 30px;
+    box-shadow:1px  1px 1px 1px #fff ;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    border: 2px solid #00b6af;
+    border-radius: 8px;
+    font-size: 12px #00b6af;
+    color: #fff;
+    background-color: #00b6af;
+}
+.prise p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px; 
+}
+.SelectBox{
+    margin: 60px 130px;
+}
+.SelectBox h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.SelectBox select{
+    margin-bottom: 45px;  
+}
+.meSelect{ 
+    display: block;
+    width: 890px;
+    height: 54px;
+    color: #737373;
+    background-color: #efefef;
+}
+.SelectBox hr{
+    height: 2px;
+    border: none;
+    background: #737373;
+    width: 890px; 
+}
+.dop {
+ float: left;
+font-size: 18px;
+     margin-left: 130px;
+}
+.zero{
+    font-size: 18px;
+    margin-left: 1013px;
+        
+}
+.statistics h2{
+    text-align: center; 
+    margin: 250px auto 35px auto;
+    font-size: 22px;
+}
+
+.statistics hr{
+ height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;
+}
+.statisticsBox{
+    
+    float: left;
+    width: 280px;
+    margin: 90px 0px 0px 30px;
+    padding-left: 30px;
+    text-align: center; 
+}
+.statisticsBox h3{
+    font-size: 22px;
+    font-weight: 900;
+    color: #283c4f;
+    margin: 35px auto;
+    
+}
+.reviews h2{
+    text-align: center; 
+    margin: 105px auto 35px auto;
+    font-size: 22px;   
+}
+.reviews hr{
+  height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;  
+}
+.reviews img{
+    margin: 60px 46% 40px 46%;
+}
+.reviews h6{
+    text-align: center;
+   font-size: 12px
+}
+.reviews h3{
+   text-align: center;
+   font-size: 17px;
+    margin-top: 40px;
+}
+.reviews input{
+ width: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    
+    
+}
+.radi{
+    margin-left: 46%;
+    color: #eb7800;
+}
+.statistics {
+    height: 500px;
+        box-shadow: 1px 1px 1px 1px #fff;
+    background: url(../img/Statistika.jpg);
+background-attachment: fixed;
+}
+.contacts{
+   height: 500px; 
+    box-shadow: 1px 1px 1px 1px #fff;
+    background: url(../img/Kontakti.jpg);
+    margin: 95px auto 0px auto;
+}
+.contacts h2 {
+     text-align: center; 
+     margin: 197px auto 35px auto;
+    font-size: 22px;   
+    color: #fff;
+}
+.contacts hr{
+   height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;   
+}
+.contacts p{
+    text-align: center; 
+    color: #fff;
+    margin: 35px auto;
+}
+.contact{
+    float: left;
+    width: 200px;
+    margin: 50px 0px 50px 0px;
+    padding-left: 30px;
+    text-align: center;
+    color: #fff;
+    
+}
+.cont{
+  width: 600px; 
+    margin: 0px auto;
+}
+.clear{
+    clear: left;
+}
+.contact h6{
+    margin-top: 14px;
+} 
+.contacts h3{
+   text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.contacts input{
+    text-align: center;
+    float: left;
+    color: #5d5d5e;
+    background-color: #cfd5dc;
+    padding-left: 20px;
+    
+}
+.QWE{
+    width: 250px;
+    height: 27px;
+    float: left;
+    color: #5d5d5e;
+    background-color: #cfd5dc;
+    margin: 20px auto 20px 30%;
+        
+}
+.QWR{
+    width: 250px;
+    height: 27px;
+    float: left;
+    color: #fff;
+    background-color: #cfd5dc;
+    margin: 20px 30% 20px auto;
+        
+}
+.contacts textarea{
+    width: 700px;
+    height: 45px;
+    margin: 5px 22%;
+}
+.Q{
+    height: 30px;
+    width: 120px
+    box-shadow:1px  1px 1px 1px #fff ;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #fff;
+     
+}
+.finish{
+    height: 340px;
+    background: url(../img/Karta.jpg);
+    background-attachment: fixed;
+}
+.finish a{
+    margin: 147px 22%;
+    
+    
 }
