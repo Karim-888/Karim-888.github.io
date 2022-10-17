@@ -12,12 +12,14 @@ nav{
     font-size: 20px;
     line-height: 60px;
     padding-left: 20%;
-    display: inline-block;
+    float: left;
+    
     
     }
 
  .menu{
     float: left;
+     margin-left: 200px;
     padding-left: 23,1%;
     
 }
@@ -34,8 +36,8 @@ nav{
 .main{
     width: 100%;
     height: calc(100% - 60px);
-background:url(../img/boy.png)no-repeat 90% 100%/auto 85%, url(../img/bg.jpf) center/cover no-repeat;
-    
+ background: url(../img/bg.jpg)center/cover no-repeat;
+background:url(../img/boy.png)no-repeat 90% 100%/auto 85%;    
 }
 
 .title_conteiner{
@@ -68,12 +70,17 @@ background:url(../img/boy.png)no-repeat 90% 100%/auto 85%, url(../img/bg.jpf) ce
     color: #697784;
 }
  .me{
-    margin: 30px 0px 0px 0px;
-     margin-left: 50%;
-    font-size: 20px;
-    color: #1a2e43;
-   text-decoration: underline #eb7800;
-    
+   text-align: center;
+     margin: 30px auto 0px auto;
+    font-size: 22px;
+    color: #1a2e43;  
+}
+.me hr{
+     height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;
 }
 .cat {
     height: 290px;
@@ -81,38 +88,43 @@ background:url(../img/boy.png)no-repeat 90% 100%/auto 85%, url(../img/bg.jpf) ce
 background: url(../img/1234.webp.jpg)no-repeat 50% ;
 }
 .about{
-     height: 100px;`
+    text-align: center;
+     height: 100px;
+    width: 750px;`
     box-shadow:1px  1px 1px 1px #fff ;
-    margin-left:272px; 
-    text-align: left;
+    margin:0px auto 0px auto;
    color:   37475a; 
    font-size: 10px;
 }
 .download input{
-     height: 30px;
+    height: 30px;
     box-shadow:1px  1px 1px 1px #fff ;
     text-align: center;
-    margin: 0px 0px 0px 50%;
     border: 2px solid #697784;
     background: url(../img/ik.jpg)no-repeat ;
     border-radius: 8px;
     font-size: 12px;
     color: #697784;
-    
+    margin: 0px 0px 0px 45%;
 }
 .what{
+    width: auto;
     height: 520px; 
     box-shadow:1px  1px 1px 1px #fff ;
-    background: url(../img/fon.jpf)no-repeat;
+    background: url(../img/fon.jpg)no-repeat;
 }
 .what h2{
-  margin: 214px 0px 0px 0px;
-    margin-left: 50%;
-    font-size: 20px;
-    color: #1a2e43;
-   text-decoration: underline #eb7800;
-    
-
+    text-align: center;
+     margin: 210px auto 0px auto;
+    font-size: 22px;
+    color: #1a2e43;  
+}
+.what hr{
+    height: 4px;
+    border: none;
+    background: #eb7800;
+    width: 70px; 
+    margin: 30px auto 38px auto;
 }
 
 .skills {
@@ -380,7 +392,16 @@ background-attachment: fixed;
     background-attachment: fixed;
 }
 .finish a{
-    margin: 147px 22%;
+    margin-top: 120px;
     
-    
+}
+.fin{
+     width: 100%;
+    height: 60px;
+    background: #2a3e51;
+}
+.fin h5{
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
 }
