@@ -117,7 +117,8 @@ background: url(../img/1234.webp.jpg)no-repeat 50% ;
     text-align: center;
      margin: 210px auto 0px auto;
     font-size: 22px;
-    color: #1a2e43;  
+    color: #1a2e43; 
+     padding-top: 40px;
 }
 .what hr{
     height: 4px;
@@ -144,6 +145,9 @@ background: url(../img/1234.webp.jpg)no-repeat 50% ;
    margin-top: 20px; 
     font-size: 10px;
      }
+.case{
+    margin-top: 100px;
+}
 .ca{
   text-align: center; 
     margin: 0px auto;
@@ -231,6 +235,7 @@ font-size: 18px;
     text-align: center; 
     margin: 250px auto 35px auto;
     font-size: 22px;
+    padding-top: 40px;
 }
 
 .statistics hr{
@@ -297,16 +302,18 @@ font-size: 18px;
 background-attachment: fixed;
 }
 .contacts{
-   height: 500px; 
+   height: 800px; 
     box-shadow: 1px 1px 1px 1px #fff;
     background: url(../img/Kontakti.jpg);
     margin: 95px auto 0px auto;
+   
 }
 .contacts h2 {
      text-align: center; 
      margin: 197px auto 35px auto;
     font-size: 22px;   
     color: #fff;
+     padding-top:30px;
 }
 .contacts hr{
    height: 4px;
@@ -331,7 +338,7 @@ background-attachment: fixed;
 }
 .cont{
   width: 600px; 
-    margin: 0px auto;
+    margin: 60px auto;
 }
 .clear{
     clear: left;
@@ -344,56 +351,70 @@ background-attachment: fixed;
     color: #fff;
     font-size: 20px;
 }
-.contacts input{
-    text-align: center;
-    float: left;
-    color: #5d5d5e;
-    background-color: #cfd5dc;
-    padding-left: 20px;
-    
+
+
+.WE{
+     width: 250px;
+    margin: 50px auto;
+   padding-left: 20%;
 }
 .QWE{
-    width: 250px;
-    height: 27px;
     float: left;
-    color: #5d5d5e;
+       display: block; 
+     color: #5d5d5e;
     background-color: #cfd5dc;
-    margin: 20px auto 20px 30%;
         
 }
 .QWR{
-    width: 250px;
-    height: 27px;
     float: left;
-    color: #fff;
-    background-color: #cfd5dc;
-    margin: 20px 30% 20px auto;
-        
+     display: block;
+     color: #5d5d5e;
+    background-color: #cfd5dc;   
+}
+.name{
+    text-align: center;
+     display: block;
+    
 }
 .contacts textarea{
-    width: 700px;
-    height: 45px;
-    margin: 5px 22%;
+   color: #5d5d5e;
+    background-color: #cfd5dc; 
+    margin: 10px auto;
+      width: 700px;
+    height: 100px;
+    
 }
 .Q{
     height: 30px;
-    width: 120px
-    box-shadow:1px  1px 1px 1px #fff ;
-    text-align: center;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    font-size: 12px;
-    color: #fff;
+    width: 120px;
+   margin: 0px auto;
      
 }
+.inpQ{
+     border: 2px solid #cfd5dc;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #5d5d5e;
+    display: block;
+    text-align: center;
+
+}
 .finish{
-    height: 340px;
+    height: 370px;
     background: url(../img/Karta.jpg);
     background-attachment: fixed;
 }
-.finish a{
-    margin-top: 120px;
-    
+.fi{
+     height: 50px;
+    width: 140px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.f{  
+     color: #000;
+    background-color: #fff;
 }
 .fin{
      width: 100%;
