@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="css/reset.css">
     
 <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/transform.css">
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 
@@ -27,25 +31,36 @@
        <div class="logo">Андрей Браун</div>
        <div class="menu">
        <ul>
-        <li>Обо мне</li> 
-        <li>Услуги</li>
-        <li>Кейсы</li>
-        <li>Прайс</li> 
-        <li>Контакты</li>
+        <li><a href="#">Обо мне</a></li> 
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Кейсы</a></li>
+        <li><a href="#">Прайс</a></li> 
+        <li><a href="#">Контакты</a></li>
        </ul>
        
        </div>
    </nav>
     </headr>
-    <div class="main"><div class="title_conteiner">
+    
+    <main>
+     <section class="main">
+      
+      <div class="title_conteiner">
         <h1>Привет<br>Я Андрей Браун</h1>
     <h4>Фулл стек веб-разработчик и Android - разработчик</h4> 
-    <input type="sumbit" value="Обо мне">
-    <input type="sumbit" value="Мои работы">
-    </div >
-    </div>
+    <input class="tit" type="button" value="Обо мне">
+    <input class="tit" type="button" value="Мои работы">
+      
+      </div>
+     </section>
+     <br>
+     <br>
+     <br>
+     <br>
+
+    </main>
  <div class="me">
-  <h2>ОБО МНЕ</h2>
+  <h2 class="animate__animated animate__swing"><a href="#">ОБО МНЕ</a> </h2>
    <hr>
     </div>
     <div class="cat">
@@ -66,36 +81,41 @@
       <p>facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
      </div>
  <div class="download">
- 
- <input type="sumbit" value="Скачать Резюме"> 
+ <div class="dow">   
+ <input type="button" value="Скачать Резюме"> 
+     
  </div>
+    </div>
+    
  <div class="what">
-   <h2 >ЧТО Я УМЕЮ </h2>
+    <div class="all>">
+     <h2 ><a href="#">ЧТО Я УМЕЮ </a></h2>
+        </div>
    <hr>
    <div class="skills">
         <img src="img/noyt.png" alt="">
-      <h3>Веб-Дизайнер</h3>
+       <h3 class="animate__animated animate__flash"><a href="#">Веб-Дизайнер</a></h3>
     <p>Lorem ipsum dolor sit amet placerat<br>
 facilisis felis mi in tempus eleifend<br>
 pellentesque natoque etiam. </p>
    </div>
       <div class="skills">
      <img src="img/znak.png" alt="">
-    <h3>Разработк</h3> 
+          <h3 class="animate__animated animate__flash"><a href="#">Разработк</a></h3> 
 <p>Lorem ipsum dolor sit amet placerat<br>
 facilisis mi in tempus eleifend <br>
 pellentesque</p>
    </div>
      <div class="skills">
      <img src="img/raketa.png" alt="">
-   <h3>СЕО-Оптимизация</h3>
+         <h3 class="animate__animated animate__flash"><a href="#">СЕО-Оптимизация</a></h3>
 <p>Lorem ipsum dolor sit amet placerat<br>
 facilisis felis mi in tempus eleifend<br>
 pellentesque natoque etiam.</p>
     </div>
      <div class="skills">
   <img src="img/grammofon.png" alt="">
-<h3>Маркетинг </h3>
+         <h3 class="animate__animated animate__flash"><a href="#">Маркетинг </a></h3>
 <p>Lorem ipsum dolor sit amet placerat<br>
 facilisis felis mi in tempus eleifend<br>
 pellentesque natoque .</p> 
@@ -103,7 +123,7 @@ pellentesque natoque .</p>
     
     </div>
     <div class="case">
-       <h2 class="ca">КЕЙСЫ</h2>
+        <h2 class="ca"><a href="#">КЕЙСЫ</a></h2>
        <hr> 
        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</h5>
        
@@ -137,7 +157,9 @@ pellentesque natoque .</p>
             <option value="opt4">Выберете пункт</option>
         </select>
     </form>
-    <h2>Дизайн</h2>
+       <div class="all>">
+        <h2><a href="#">Дизайн</a></h2>
+        </div>
     <form>
         <select  class="meSelect" name="list" id="list" placeholder="Выберите пункт...">
             <option value="opt1">Выберете пункт</option>
@@ -146,7 +168,9 @@ pellentesque natoque .</p>
             <option value="opt4">Выберете пункт</option>
         </select>
     </form>
-    <h2>Адаптация</h2>
+       <div class="all>">
+        <h2><a href="#">Адаптация</a></h2>
+        </div>
     <form>
         <select  class="meSelect" name="list" id="list" placeholder="Выберите пункт...">
             <option value="opt1">Выберете пункт</option>
@@ -167,8 +191,9 @@ pellentesque natoque .</p>
     </div>
     </div>
     <div class="statistics">
-    
-    <h2>Немного статистики</h2>
+    <div class="all>">
+        <h2><a href="#">Немного статистики</a></h2>
+        </div>
         <hr>
          <div class="statisticsBox">
     <img src="img/Smail.jpg" alt="">
@@ -193,7 +218,9 @@ pellentesque natoque .</p>
          </div>
 </div>
     <div class="reviews">
-    <h2>Отзывы</h2>
+       <div class="all>">
+        <h2><a href="#">Отзывы</a></h2>
+        </div>
     <hr>
     <img src="img/foto.jpg" alt="">
     <h6>
@@ -209,7 +236,7 @@ pellentesque natoque .</p>
         </div>
         </div>
         <div class="contacts">
-        <h2>Мои контакты</h2>
+            <h2>Мои контакты</h2>
         <hr>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo
@@ -261,3 +288,4 @@ pellentesque natoque .</p>
 </body>
 </html>
 
+$%$$$height: calc(100% - 60px);

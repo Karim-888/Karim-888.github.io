@@ -1,0 +1,46 @@
+.dow{
+opacity: 0;
+    -webkit-animation:domove  1s ease  forwards;
+    -o-animation:domove 1s ease forwards;
+    animation:domove 1s ease forwards;
+    animation-delay: 2s;
+}
+
+
+.dow input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.dow input:hover{
+    background:#344051 ;
+        color:white ;
+}
+.dow input:active{
+    transform: scale(1.1);
+}
+
+@keyframes domove{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+
+ .all h2 a:hover{
+  color: #eb7800 ;
+    }
+
+}
+.skills h3 a:visited{
+        color:#eb7800;
+}
+.skills h3 a:hover{
+    color: #eb7800;
+   
+}
+
