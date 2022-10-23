@@ -39,9 +39,9 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    -webkit-animation: topshift 0,4s ease forwards;
-    -o-animation: topshift 0,4s ease forwards ;
-    animation: topshift 0,4s ease forwards;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards ;
+    animation: topshift 0.4s ease forwards;
     
 }
 
@@ -470,7 +470,7 @@ background-attachment: fixed;
 }
 
 .menu li a{
-    transition: all 0,1s;
+    transition: all 0.1s;
     color: white;
     transform: scale(1);
     display: inline-block;

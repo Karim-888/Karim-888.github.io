@@ -31,16 +31,19 @@ opacity: 0;
 }
 
 
- .all h2 a:hover{
+ .body h2 a:hover{
   color: #eb7800 ;
     }
 
 }
 .skills h3 a:visited{
-        color:#eb7800;
+        color:#344051;
 }
 .skills h3 a:hover{
-    color: #eb7800;
+    color: #344051;
    
+}
+.skills h3 a{
+color: #eb7800;
 }
 
